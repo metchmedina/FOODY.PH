@@ -1,7 +1,8 @@
 .container-fluid{
-	background-color: #ffff80;
+	background-color: rgb(251, 255, 178);
 	display: flex;
 	flex-wrap: wrap;
+        opacity: 1;
 }
 
 
@@ -25,8 +26,8 @@
         font-size: 22px;
         text-align: center;
         float: center;
-        background-color: #ffff80;
-        color: #464141;
+        background-color: rgb(251, 255, 178);
+        color: black;
         margin-left: 80px;
         font-weight: bold;
         font-family: sans-serif;
@@ -35,8 +36,7 @@
 }
 
 .nav-item a:hover{
-	    background-color: #3399ff;
-        color: #ff8080;
+        color: #ffa147;
         border-radius: 20px;
 }
 
