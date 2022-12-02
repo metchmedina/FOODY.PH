@@ -1,5 +1,5 @@
 .container-fluid{
-	background-color: rgb(251, 255, 178, 0.8);
+	background-color: rgb(255, 186, 0, 0.3);
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -15,7 +15,6 @@
 .nav-item{
 	margin-right: 50px;
 	font-size: 25px;
-        background-color: rgb(251, 255, 178, 0.8);
 }
 
 .nav-item a{
@@ -25,7 +24,6 @@
         font-size: 22px;
         text-align: center;
         float: center;
-        background-color: rgba(251, 255, 178, 0.596);
         color: black;
         margin-left: 80px;
         font-weight: bold;
@@ -41,8 +39,27 @@
 }
 
 .con{
-        background-color: rgb(255, 186, 0, 0.5);
-        margin-top: 445px;
-        padding: 60px;
+        background-color: rgb(255, 186, 0, 0.3);
+        margin-top: 430px;
+        padding: 30px;
+        padding-bottom: 0%;
 
+}
+
+.p{
+        margin-top: 0%;
+}
+
+.img1{
+        width: 45px;
+        height: 45px;
+        margin-left: 600px;
+        margin-bottom: 3px;
+}
+
+.img2{
+        width: 45px;
+        height: 45px;
+        margin-left: 10px;
+        margin-bottom: 3px;
 }
