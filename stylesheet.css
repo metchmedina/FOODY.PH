@@ -1,74 +1,96 @@
+/*- INDEX PAGE -*/
 *{
-	margin: 0;
-	padding: 0;
-}
-
-html, body {
-	height: 100%;
-}
-
-.container-fluid {
-	background-color: rgb(170, 119, 28, 0.7);
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.navbar-brand {
-	margin-left: 180px;
-}
-
-.nav-item {
-	font-size: 25px;
-}
-
-.nav-item a {
+        padding: 0;
+        margin: 0;
         text-decoration: none;
-        display: block;
-        padding: 0px;
-        font-size: 22px;
-        text-align: center;
-        float: center;
-        color: black;
-        margin-left: 30px;
+        list-style: none;
+        box-sizing: border-box;
+}
+      body{
+        font-family: 'verdana, sans-serif';
+}
+      nav{
+        background: #fde406d7;
+        height: 80px;
+        width: 100%;
+}
+      label.logox{
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
         font-weight: bold;
-        font-family: 'Verdana, sans-serif';
-        line-height: 70px;
-        width: 150px;
 }
-
-.nav-item a:hover {
-        color: #ffa147;
-        border-radius: 20px;
-        font-size: 25px;
-
+      nav ul{
+        float: right;
+        margin-right: 20px;
 }
-
-.con {
-        background-color: rgb(170, 119, 28, 0.9);
-        margin-top: 620px;
-        padding: 30px;
-        padding-bottom: 0%;
-        position: relative;
-	height: 142px;
-	clear: both;
+      nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
 }
-
-.p {
-        margin-top: 0%;
+      nav ul li a{
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
 }
-
-.img1 {
-        width: 45px;
-        height: 45px;
-        margin-left: 600px;
-        margin-bottom: 3px;
+      a.activex,a:hover{
+        background: #1b9bff;
+        transition: .5s;
 }
-
-.img2 {
-        width: 45px;
-        height: 45px;
-        margin-left: 10px;
-        margin-bottom: 3px;
+      .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+}
+      #check{
+        display: none;
+}
+      @media (max-width: 952px){
+        label.logox{
+          font-size: 30px;
+          padding-left: 50px;
+}
+        nav ul li a{
+          font-size: 16px;
+}
+}
+      @media (max-width: 858px){
+        .checkbtn{
+          display: block;
+}
+        ul{
+          position: fixed;
+          width: 100%;
+          height: 100vh;
+          background: #458fdafd;
+          top: 80px;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+}
+        nav ul li{
+          display: block;
+          margin: 50px 0;
+          line-height: 30px;
+}
+        nav ul li a{
+          font-size: 20px;
+}
+        a:hover,a.activex{
+          background: none;
+          color: #0082e6;
+}
+        #check:checked ~ ul{
+          left: 0;
+}
 }
 
 /*- RESTAURANT PAGE -*/
@@ -115,10 +137,12 @@ html, body {
 
 
 /* ABOUT US PAGE */
+
 .wrap {
-	width: 1000px;
+	width: auto;
 	margin: auto;
-	margin-top: 100px;
+        margin-left: 8%;
+	margin-top: 8%;
 }
 
 .card {
@@ -131,7 +155,7 @@ html, body {
 	font-family: sans-serif;
 	float: left;
 	margin: 10px;
-        margin-left: 23px;
+        margin-left: 10%;
 }
 
 .card:hover {
