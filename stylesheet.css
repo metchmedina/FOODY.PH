@@ -1,112 +1,88 @@
-/*- INDEX PAGE -*/
-*{
-        padding: 0;
-        margin: 0;
-        text-decoration: none;
-        list-style: none;
-        box-sizing: border-box;
+                                /*- INDEX PAGE -*/	
+#neubar {
+        background: #fae8d2;
+        box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
 }
-      body{
-        font-family: 'verdana, sans-serif';
-}
-      nav{
-        background: #fde406d7;
-        height: 80px;
-        width: 100%;
-}
-      label.logox{
-        color: rgb(0, 0, 0);
-        font-size: 30px;
-        line-height: 50px;
-        padding: 0 100px;
-        font-weight: bold;
-}
-      nav ul{
-        float: right;
-        margin-right: 20px;
-}
-      nav ul li{
-        display: inline-block;
-        line-height: 80px;
-        margin: 0 5px;
-}
-      nav ul li a{
-        color: rgb(0, 0, 0);
-        font-size: 17px;
-        padding: 7px 13px;
-        border-radius: 3px;
-        text-transform: uppercase;
-}
-      a.activex,a:hover{
-        background: #1b9bff;
-        transition: .5s;
-}
-      .checkbtn{
-        font-size: 30px;
-        color: white;
-        float: right;
-        line-height: 80px;
-        margin-right: 40px;
-        cursor: pointer;
-        display: none;
-}
-      #check{
-        display: none;
-}
-      @media (max-width: 952px){
-        label.logox{
-          font-size: 30px;
-          padding-left: 20px;
-}
-        nav ul li a{
-          font-size: 16px;
-}
-}
-      @media (max-width: 858px){
-        .checkbtn{
-          display: block;
-}
-        ul{
-          position: fixed;
-          width: 100%;
-          height: 100vh;
-          background: #458fdafd;
-          top: 80px;
-          left: -100%;
-          text-align: center;
-          transition: all .5s;
-}
-        nav ul li{
-          display: block;
-          margin: 50px 0;
-          line-height: 30px;
-}
-        nav ul li a{
-          font-size: 20px;
-}
-        a:hover,a.activex{
-          background: none;
-          color: #0082e6;
-}
-        #check:checked ~ ul{
-          left: 0;
-}
+ 
+.nav-item .active {
+         border-radius: 6px;
+         background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+         box-shadow:  4px 4px 8px #ddc1a0,
+                   -4px -4px 8px #f7e5cc;
 }
 
-/*- RESTAURANT PAGE -*/
+#neubar .nav-item {
+          margin : auto 4px;
+}
+#neubar a {
+ 
+        padding-left:12px;
+        padding-right:12px;
+}
+a.navbar-brand {
+        color: #454545
+}
+
+.logo {
+        margin: -18px;
+        margin-right: -20px;
+}
+
+.Quote {
+	color: rgb(255, 251, 0);
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	font-size: 5rem;
+	text-shadow: 20px 20px 25px #000;
+}
+
+.text-center {
+        padding-top: 15px;
+        padding-left: 15px;
+        font-size: 15px;
+        background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+}
+
+.fb {
+        width: 45px;
+        border-radius: 35px;
+        box-shadow:  3px 3px 8px #000000;
+}
+.fb:hover {
+        width: 50px;
+}
+
+.insta {
+        width: 45px;
+        margin-left: 30px;
+        box-shadow:  3px 3px 8px #000000;
+        border-radius: 35px;
+}
+.insta:hover {
+        width: 50px;
+}
+
+.QR {
+        margin-left: 50px;
+}
+
+                                /*- RESTAURANT PAGE -*/
+
 
 .a1 {
         font-size: 40px;
         font-family: 'Verdana, sans-serif';
-        background-color: rgb(170, 119, 28, 0.5);
-        border-radius: 20px;
-        box-shadow:0 10px 15px 0 rgb(0, 0, 0, 0.6);
+        margin-left: 100px;
+        margin-top: 120px;
+        padding-left: 37px;
 }
 
 .wrap1 {
 	width: auto;
 	margin: auto;
-        margin-left: 20%;
+        margin-left: 3.5%;
 	margin-top: 30px;
 }
 
@@ -133,12 +109,12 @@
 
 
 
-/* ABOUT US PAGE */
+                                /* ABOUT US PAGE */
 
 .wrap {
 	width: auto;
         height: auto;
-        margin-left: 8%;
+        margin-left: 4.5%;
 	margin-top: 8%;
 }
 
@@ -153,7 +129,7 @@
 	font-family: sans-serif;
 	float: left;
 	margin: 10px;
-        margin-left: 9.5%;
+        margin-left: 5%;
 }
 
 .card:hover {
@@ -163,19 +139,8 @@
 .container {
 	padding: 2px 16px;
 }
-.a1 {
-        margin-left: 100px;
-        font-size: 40px;
-        font-family: 'Verdana, sans-serif';
-        margin-top: 120px;
-        background-color: rgba(247, 222, 0, 0.877);
-        border-radius: 20px;
-        padding-left: 37px;
-        margin-right: 85%;
 
-}
-
-/* LUZON - VISAYAS - MINDANAO */
+                                /* LUZON - VISAYAS - MINDANAO */
 
 
 .Res {
@@ -194,7 +159,7 @@
 .wraps {
 	width: auto;
 	margin: auto;
-        margin-left: 10%;
+        margin-left: 5%;
         margin-top: 50px;
 }
 
@@ -222,18 +187,81 @@
 }
 
 
-/* LR1 */
-
+                                /* LR1 */
+.main-pic {
+        margin-top: 9%;
+}
 .LR1 {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 45%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        margin-left: 5.5%;
+        margin-right: 20px;
+        margin-bottom: 80px;
+}
+.LR1:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+.containers {
+	padding: 2px 16px;
+}
+
+/*---------------*/
+
+.sub-pic1 {
+        margin-top: 5%;
+}
+.sub-pics1 {
+        width: 35%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 30%;
+}
+.sub-pics1 {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 20%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        margin-left: 76%;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        position: absolute;
+}
+.sub-pics1:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+.containers {
+	padding: 2px 16px;
+}
+
+/*---------------*/
+
+.sub-pic2 {
+        margin-top: 5%;
+}
+.sub-pics2 {
         width: 35%;
         height: auto;
         margin-left: 10%;
         margin-top: 10%;
 }
-.LR1 {
+.sub-pics2 {
 	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
 	transition: 0.4s;
-	width: 35%;
+	width: 20%;
         height: auto;
 	background: #fff;
 	text-align: center;
@@ -241,38 +269,73 @@
 	font-family: 'Verdana, sans-serif';
 	float: left;
 	margin: 10px;
-        margin-left: 5.5%;
+        margin-left: 53%;
         margin-right: 20px;
         margin-bottom: 80px;
+        position: absolute;
 }
-
-.LR1:hover {
+.sub-pics2:hover {
 	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
 }
 
-.containers {
-	padding: 2px 16px;
-}
+/*---------------*/
 
-.sub-pics {
+.sub-pic3 {
+        margin-top: 30%;
+}
+.sub-pics3 {
+        width: 35%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 30%;
+}
+.sub-pics3 {
 	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
 	transition: 0.4s;
-	width: 250px;
+	width: 20%;
+        height: auto;
 	background: #fff;
 	text-align: center;
 	font-size: 16px;
 	font-family: 'Verdana, sans-serif';
 	float: left;
 	margin: 10px;
-        margin-left: 5.5%;
+        margin-left: 53%;
         margin-right: 20px;
         margin-bottom: 80px;
+        position: absolute;
 }
-
-.sub-pics:hover {
+.sub-pics3:hover {
 	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
 }
 
-.containers {
-	padding: 2px 16px;
+/*---------------*/
+
+.sub-pic4 {
+        margin-top: 30%;
+}
+.sub-pics4 {
+        width: 35%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 30%;
+}
+.sub-pics4 {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 20%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        margin-left: 76%;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        position: absolute;
+}
+.sub-pics4:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
 }
