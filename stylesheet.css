@@ -171,7 +171,15 @@ a.navbar-brand {
 }
 
                                 /* LUZON - VISAYAS - MINDANAO */
-
+.Luzon-Body {
+        background-image: url(LBG.png);
+}
+.Min-Body {
+        background-image: url(MBG.png);
+}       
+.Vis-Body {
+        background-image: url(VBG.png);
+}
 
 .Res {
        width: 25%;
