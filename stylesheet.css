@@ -67,18 +67,20 @@ a.navbar-brand {
         width: 40px;
 }
 
-.download-btn{
-        background-color: DodgerBlue;
-        color: white;
-        width: auto;
-        padding: 1rem 2rem;
-        font-size: 15px;
-        text-decoration: none;
-        border-radius:10px;
+.Code {
+	background: #00A9D4;
+	color: #fff;
+	padding: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 200px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 15px;
+        justify-content: center;
 }
-
-    .download-btn:hover {
-        background-color: RoyalBlue;
+.Code:hover {
+	background: #00729D;
 }
 
                                 /*- RESTAURANT PAGE -*/
