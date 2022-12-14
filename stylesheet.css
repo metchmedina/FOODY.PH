@@ -1,13 +1,13 @@
                                 /*- INDEX PAGE -*/	
 #neubar {
-        background: #fae8d2;
+        background: #bd9a73;
         box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
 }
  
 .nav-item .active {
          border-radius: 6px;
-         background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
-         box-shadow:  4px 4px 8px #ddc1a0,
+         background: linear-gradient(145deg, #bd9a73, #bd9a73);
+         box-shadow:  4px 4px 8px #d8b389,
                    -4px -4px 8px #f7e5cc;
 }
 
@@ -47,6 +47,7 @@ a.navbar-brand {
 
 .fb {
         width: 45px;
+        transition: 0.4s;
         border-radius: 35px;
         box-shadow:  3px 3px 8px #000000;
 }
@@ -56,7 +57,9 @@ a.navbar-brand {
 
 .insta {
         width: 45px;
+        transition: 0.4s;
         margin-left: 30px;
+        margin-right: 30px;
         box-shadow:  3px 3px 8px #000000;
         border-radius: 35px;
 }
@@ -64,15 +67,25 @@ a.navbar-brand {
         width: 40px;
 }
 
-.QR {
-        margin-left: 50px;
+.download-btn{
+        background-color: DodgerBlue;
+        color: white;
+        width: auto;
+        padding: 1rem 2rem;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius:10px;
+}
+
+    .download-btn:hover {
+        background-color: RoyalBlue;
 }
 
                                 /*- RESTAURANT PAGE -*/
 
 .ResBody {
         background-image: url(Restaurant-Background.png);
-        background-size: 100%;
+        background-size: 120%;
         background-repeat: no-repeat;
 }
 
@@ -122,7 +135,7 @@ a.navbar-brand {
 .Ab-Body {
         background-image: url(About-BG.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 120%;
 }
 
 
