@@ -83,6 +83,20 @@ a.navbar-brand {
 .Code:hover {
 	background: #00729D;
 }
+.QR {
+	background: #00A9D4;
+	color: #fff;
+	padding: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 320px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.QR:hover {
+	background: #00729D;
+}
 
                                 /*- RESTAURANT PAGE -*/
 
