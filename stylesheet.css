@@ -445,10 +445,10 @@ a.navbar-brand {
 }
 
 .Restaurant-About {
-        background-color:  hsl(30, 50%, 60%, 0.5);
-        padding-left: 5px;
+        background-color:  hsla(40, 100%, 75%, 0.6);
+        padding-left: 6px;
         position: absolute;
-        border-radius: 20px;
+        border-radius: 25px;
         margin-top: 150px;
         margin-left: 70px;
 }
@@ -457,7 +457,9 @@ a.navbar-brand {
 	font-family: Arial, sans-serif;
         text-align: center;
         font-size: 50px;
-        color: #07ffac;
+        color: #262626;
+        background-color: hsla(29, 100%, 90%, 0.5);
+        border-radius: 50px;
         text-shadow: 5px 20px 16px 0 rgb(255, 255, 255);
         margin-top: 35px;
 }
