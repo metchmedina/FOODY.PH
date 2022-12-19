@@ -204,7 +204,7 @@ a.navbar-brand {
        font-size: 20px;
        color: #ffffff;
        border-radius: 100px;
-       background-color: hsl(0, 55%, 60%);
+       background-color: #d2a679;
        margin-left: 38%;
        text-align: center;
        margin-top: 3%;
@@ -212,6 +212,7 @@ a.navbar-brand {
        padding:  2px 6px;
        justify-content: center;
        box-shadow: 0 8px 16px  #000;
+       font-family: courier, "times new roman", monospace;
 }
 .ResM {
         width: 25%;
@@ -219,7 +220,7 @@ a.navbar-brand {
         font-size: 20px;
         color: #000000;
         border-radius: 100px;
-        background-color: hsl(60, 100%, 85%);
+        background-color: #d2a679;
         margin-left: 38%;
         text-align: center;
         margin-top: 3%;
@@ -227,14 +228,16 @@ a.navbar-brand {
         padding:  2px 6px;
         justify-content: center;
         box-shadow: 0 8px 16px  #000;
+        font-family: courier, "times new roman", monospace;
+        
  }
  .ResV {
         width: 25%;
         height: auto;
-        font-size: 20px;
+        font-size: 30px;
         color: #ffffff;
         border-radius: 100px;
-        background-color: hsl(210, 100%, 65%);
+        background-color: #d2a679;
         margin-left: 38%;
         text-align: center;
         margin-top: 3%;
@@ -242,6 +245,7 @@ a.navbar-brand {
         padding:  2px 6px;
         justify-content: center;
         box-shadow: 0 8px 16px  #000;
+        font-family: courier, "times new roman", monospace;
  }
 
 .wraps {
@@ -451,14 +455,15 @@ a.navbar-brand {
         border-radius: 25px;
         margin-top: 150px;
         margin-left: 70px;
+        font-family: courier, "times new roman", monospace;
 }
 
 .NameR {
-	font-family: Arial, sans-serif;
+	font-family: courier, "times new roman", monospace;
         text-align: center;
         font-size: 50px;
         color: #262626;
-        background-color: hsla(29, 100%, 90%, 0.5);
+        background-color: hsla(29, 100%, 90%, 0.7);
         border-radius: 50px;
         text-shadow: 5px 20px 16px 0 rgb(255, 255, 255);
         margin-top: 35px;
