@@ -1,6 +1,6 @@
                                 /*- INDEX PAGE -*/	
 #neubar {
-        background: #d6c0a8;
+        background: #b99c85;
         box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
 }
  
@@ -35,15 +35,15 @@ a.navbar-brand {
 	width: 100%;
 	text-align: center;
 	font-size: 5rem;
-	text-shadow: 25px 25px 30px #000;
-        font-family: cursive;
+	text-shadow: 30px 30px 50px #000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.text-center {
+.text-center {                   /* FOOTER */
         padding-top: 15px;
         padding-left: 15px;
         font-size: 15px;
-        background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+        background: linear-gradient(145deg, #dab894, #f5d7b2);
 }
 
 .fb {
@@ -84,7 +84,7 @@ a.navbar-brand {
 	background: #00729D;
 }
 .QR {
-	background: #00A9D4;
+	background: #ceb396;
 	color: #fff;
 	padding: 15px;
 	cursor: pointer;
@@ -95,19 +95,19 @@ a.navbar-brand {
 	font-size: 20px;
 }
 .QR:hover {
-	background: #00729D;
+	background: #ceb396;
 }
 
                                 /*- RESTAURANT PAGE -*/
 
 .ResBody {
         background-image: url(Restaurant-Background.png);
-        background-size: 120%;
+        background-size: auto;
         background-repeat: no-repeat;
 }
 
 
-.a1 {
+.a1 {     /* Select */
         font-size: 50px;
         color: rgb(255, 255, 255);
         font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
@@ -201,7 +201,7 @@ a.navbar-brand {
 .ResL {
        width: 25%;
        height: auto;
-       font-size: 20px;
+       font-size: 30px;
        color: #ffffff;
        border-radius: 100px;
        background-color: #d2a679;
@@ -217,8 +217,8 @@ a.navbar-brand {
 .ResM {
         width: 25%;
         height: auto;
-        font-size: 20px;
-        color: #000000;
+        font-size: 30px;
+        color: #ffffff;
         border-radius: 100px;
         background-color: #d2a679;
         margin-left: 38%;
@@ -449,7 +449,7 @@ a.navbar-brand {
 }
 
 .Restaurant-About {
-        background-color:  hsla(40, 100%, 75%, 0.6);
+        background-color:  hsla(30, 100%, 70%, 0.6);
         padding-left: 6px;
         position: absolute;
         border-radius: 25px;
@@ -461,9 +461,9 @@ a.navbar-brand {
 .NameR {
 	font-family: courier, "times new roman", monospace;
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
         color: #262626;
-        background-color: hsla(29, 100%, 90%, 0.7);
+        background-color: hsla(29, 100%, 90%, 0.5);
         border-radius: 50px;
         text-shadow: 5px 20px 16px 0 rgb(255, 255, 255);
         margin-top: 35px;
